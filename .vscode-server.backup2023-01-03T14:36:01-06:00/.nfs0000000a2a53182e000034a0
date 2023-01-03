@@ -1,0 +1,417 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:44015 (IPv4)
+Extension host agent listening on 44015
+
+[14:35:13] [Error: ENOENT: no such file or directory, scandir '/home/abaumgartner/.vscode-server/data/logs'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/abaumgartner/.vscode-server/data/logs'
+}
+[14:35:14] Extension host agent started.
+[14:35:15] [127.0.0.1][19cfe798][ManagementConnection] New connection established.
+[14:35:15] [127.0.0.1][13e8bbfd][ExtensionHostConnection] New connection established.
+[14:35:19] No ptyHost heartbeat after 6 seconds
+[14:35:23] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[14:35:23] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[14:35:23] RequestService#request (node) resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[14:35:23] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[14:35:23] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[14:35:23] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[14:35:23] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[14:35:24] [127.0.0.1][13e8bbfd][ExtensionHostConnection] <847615> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at d._throwIfNoPty (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateTitle (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:2931)
+    at Object.call (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[14:35:28] Error [CodeExpectedError]: Could not find pty on pty host
+    at d._throwIfNoPty (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateTitle (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:2931)
+    at Object.call (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at d._throwIfNoPty (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateIcon (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:2993)
+    at Object.call (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[14:35:28] Error [CodeExpectedError]: Could not find pty on pty host
+    at d._throwIfNoPty (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateIcon (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:2993)
+    at Object.call (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[14:36:01] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[14:36:01] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[14:36:01] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[14:37:34] [127.0.0.1][19cfe798][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[14:37:34] [127.0.0.1][13e8bbfd][ExtensionHostConnection] <847615> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[14:37:34] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[14:38:38] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[14:38:38] Cancelling previous shutdown timeout
+[14:38:39] [127.0.0.1][1d7e8ac4][ManagementConnection] New connection established.
+[14:38:39] [127.0.0.1][2001ea37][ExtensionHostConnection] New connection established.
+[14:38:39] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[14:38:39] [127.0.0.1][2001ea37][ExtensionHostConnection] <848304> Launched Extension Host Process.
+[14:38:43] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[14:38:43] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[14:38:43] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[14:38:43] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at d._throwIfNoPty (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateIcon (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:2993)
+    at Object.call (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[14:38:45] Error [CodeExpectedError]: Could not find pty on pty host
+    at d._throwIfNoPty (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateIcon (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:2993)
+    at Object.call (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[14:39:15] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[14:39:40] Getting Manifest... ms-python.python
+[14:39:40] Installing extension: ms-python.python
+[14:39:41] Getting Manifest... ms-toolsai.jupyter
+[14:39:41] Getting Manifest... ms-toolsai.jupyter-keymap
+[14:39:41] Getting Manifest... ms-toolsai.jupyter-renderers
+[14:39:41] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+[14:39:41] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+[14:39:41] Getting Manifest... ms-python.vscode-pylance
+[14:39:41] Getting Manifest... ms-python.isort
+[14:39:42] Installing extension: ms-toolsai.jupyter ms-python.python
+[14:39:42] Installing extension: ms-toolsai.jupyter-keymap ms-python.python
+[14:39:42] Installing extension: ms-toolsai.jupyter-renderers ms-python.python
+[14:39:42] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-python.python
+[14:39:42] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-python.python
+[14:39:42] Installing extension: ms-python.vscode-pylance ms-python.python
+[14:39:42] Installing extension: ms-python.isort ms-python.python
+[14:39:45] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.4d7c5d61-bf02-4f7f-87c5-fad6dbf1074c: ms-toolsai.jupyter-keymap
+[14:39:45] Renamed to /home/abaumgartner/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.0.0
+[14:39:45] Extracting completed. ms-toolsai.jupyter-keymap
+[14:39:45] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.079b0a57-f413-4ada-bc09-c57b9d720082: ms-toolsai.vscode-jupyter-slideshow
+[14:39:45] Renamed to /home/abaumgartner/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+[14:39:45] Extracting completed. ms-toolsai.vscode-jupyter-slideshow
+[14:39:46] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.d3add936-64d7-4ec2-b11a-935e67e5d761: ms-toolsai.vscode-jupyter-cell-tags
+[14:39:46] Renamed to /home/abaumgartner/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.6
+[14:39:46] Extracting completed. ms-toolsai.vscode-jupyter-cell-tags
+[14:39:48] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.3694787b-f403-4178-8204-6e7f470f45cb: ms-toolsai.jupyter-renderers
+[14:39:48] Renamed to /home/abaumgartner/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.12
+[14:39:48] Extracting completed. ms-toolsai.jupyter-renderers
+[14:39:56] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.50c63552-a13e-4eef-b565-4164ac5a4634: ms-toolsai.jupyter
+[14:39:56] Renamed to /home/abaumgartner/.vscode-server/extensions/ms-toolsai.jupyter-2022.9.1303220346
+[14:39:56] Extracting completed. ms-toolsai.jupyter
+[14:40:06] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.a1dd3e75-bd47-43c4-9e9d-d0a0f2665529: ms-python.python
+[14:40:07] Renamed to /home/abaumgartner/.vscode-server/extensions/ms-python.python-2022.18.2
+[14:40:07] Extracting completed. ms-python.python
+[14:40:11] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.cf8a55c1-4c9b-4754-87b8-5e8190d4319c: ms-python.isort
+[14:40:12] Renamed to /home/abaumgartner/.vscode-server/extensions/ms-python.isort-2022.8.0
+[14:40:12] Extracting completed. ms-python.isort
+[14:40:33] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.d0813f98-26e9-4d53-838f-1d15bf5ef28d: ms-python.vscode-pylance
+[14:40:33] Renamed to /home/abaumgartner/.vscode-server/extensions/ms-python.vscode-pylance-2022.12.20
+[14:40:33] Extracting completed. ms-python.vscode-pylance
+[14:40:33] Extension installed successfully: ms-toolsai.jupyter-keymap
+[14:40:33] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+[14:40:33] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+[14:40:33] Extension installed successfully: ms-toolsai.jupyter-renderers
+[14:40:33] Extension installed successfully: ms-toolsai.jupyter
+[14:40:33] Extension installed successfully: ms-python.python
+[14:40:33] Extension installed successfully: ms-python.isort
+[14:40:33] Extension installed successfully: ms-python.vscode-pylance
+[14:41:00] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+New EH opened, aborting shutdown
+[14:43:38] New EH opened, aborting shutdown
+[14:44:21] Getting Manifest... donjayamanne.python-extension-pack
+[14:44:21] Installing extension: donjayamanne.python-extension-pack
+[14:44:22] Getting Manifest... ms-python.python
+[14:44:22] Getting Manifest... visualstudioexptteam.vscodeintellicode
+[14:44:22] Getting Manifest... visualstudioexptteam.intellicode-api-usage-examples
+[14:44:22] Getting Manifest... batisteo.vscode-django
+[14:44:22] Getting Manifest... wholroyd.jinja
+[14:44:22] Getting Manifest... njpwerner.autodocstring
+[14:44:22] Getting Manifest... kevinrose.vsc-python-indent
+[14:44:22] Getting Manifest... donjayamanne.python-environment-manager
+[14:44:22] Installing extension: visualstudioexptteam.vscodeintellicode donjayamanne.python-extension-pack
+[14:44:22] Installing extension: visualstudioexptteam.intellicode-api-usage-examples donjayamanne.python-extension-pack
+[14:44:22] Installing extension: batisteo.vscode-django donjayamanne.python-extension-pack
+[14:44:22] Installing extension: wholroyd.jinja donjayamanne.python-extension-pack
+[14:44:22] Installing extension: njpwerner.autodocstring donjayamanne.python-extension-pack
+[14:44:22] Installing extension: kevinrose.vsc-python-indent donjayamanne.python-extension-pack
+[14:44:22] Installing extension: donjayamanne.python-environment-manager donjayamanne.python-extension-pack
+[14:44:26] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.97de27f4-f3e4-4116-be70-dda4c631b01e: wholroyd.jinja
+[14:44:26] Renamed to /home/abaumgartner/.vscode-server/extensions/wholroyd.jinja-0.0.8
+[14:44:26] Extracting completed. wholroyd.jinja
+[14:44:27] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.bff6ff7a-105d-4c08-b0a1-357cb73df6d9: kevinrose.vsc-python-indent
+[14:44:27] Renamed to /home/abaumgartner/.vscode-server/extensions/kevinrose.vsc-python-indent-1.18.0
+[14:44:27] Extracting completed. kevinrose.vsc-python-indent
+[14:44:28] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.f7b721f0-cadd-4cca-a189-c0cb8005b96a: njpwerner.autodocstring
+[14:44:28] Renamed to /home/abaumgartner/.vscode-server/extensions/njpwerner.autodocstring-0.6.1
+[14:44:28] Extracting completed. njpwerner.autodocstring
+[14:44:28] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.93be749a-9c5f-46f4-9819-40430ecb8e3c: batisteo.vscode-django
+[14:44:28] Renamed to /home/abaumgartner/.vscode-server/extensions/batisteo.vscode-django-1.10.0
+[14:44:28] Extracting completed. batisteo.vscode-django
+[14:44:30] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.f5d0ec76-60fc-4835-a1d5-22f2adc1486c: visualstudioexptteam.intellicode-api-usage-examples
+[14:44:30] Renamed to /home/abaumgartner/.vscode-server/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.6
+[14:44:30] Extracting completed. visualstudioexptteam.intellicode-api-usage-examples
+[14:44:51] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.545bc430-acca-482f-961c-399b17c196f2: donjayamanne.python-environment-manager
+[14:44:51] Renamed to /home/abaumgartner/.vscode-server/extensions/donjayamanne.python-environment-manager-1.0.4
+[14:44:51] Extracting completed. donjayamanne.python-environment-manager
+[14:44:53] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.6dac0137-709d-4aa0-9eb2-1ed9573fb685: visualstudioexptteam.vscodeintellicode
+[14:44:53] Renamed to /home/abaumgartner/.vscode-server/extensions/visualstudioexptteam.vscodeintellicode-1.2.29
+[14:44:53] Extracting completed. visualstudioexptteam.vscodeintellicode
+[14:45:09] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.8eaa69c9-43a7-4a3e-b6d4-6cf3c856c64e: donjayamanne.python-extension-pack
+[14:45:09] Renamed to /home/abaumgartner/.vscode-server/extensions/donjayamanne.python-extension-pack-1.7.0
+[14:45:09] Extracting completed. donjayamanne.python-extension-pack
+[14:45:09] Extension installed successfully: wholroyd.jinja
+[14:45:09] Extension installed successfully: kevinrose.vsc-python-indent
+[14:45:09] Extension installed successfully: njpwerner.autodocstring
+[14:45:09] Extension installed successfully: batisteo.vscode-django
+[14:45:09] Extension installed successfully: visualstudioexptteam.intellicode-api-usage-examples
+[14:45:09] Extension installed successfully: donjayamanne.python-environment-manager
+[14:45:09] Extension installed successfully: visualstudioexptteam.vscodeintellicode
+[14:45:09] Extension installed successfully: donjayamanne.python-extension-pack
+[14:57:32] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[14:58:05] [File Watcher (parcel)] started ignoring events due to too many file change events at once (incoming: 4119, most recent change: /usr/local/lib/python3.8/dist-packages/Flask-0.12.5.dist-info). Use 'files.watcherExclude' setting to exclude folders with lots of changing files (e.g. compilation output).
+[14:58:05] [File Watcher (parcel)] started ignoring events due to too many file change events at once (incoming: 4470, most recent change: /usr/local/lib/python3.8/dist-packages/Crypto). Use 'files.watcherExclude' setting to exclude folders with lots of changing files (e.g. compilation output).
+[14:58:14] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[15:29:53] Getting Manifest... denoland.vscode-deno
+[15:29:53] Installing extension: denoland.vscode-deno
+[15:29:55] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.d0e1f46c-4eea-4f54-ba01-6a89b9daddd6: denoland.vscode-deno
+[15:29:55] Renamed to /home/abaumgartner/.vscode-server/extensions/denoland.vscode-deno-3.15.0
+[15:29:55] Extracting completed. denoland.vscode-deno
+[15:29:55] Extension installed successfully: denoland.vscode-deno
+[15:54:47] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration.
+    at Timeout.<anonymous> (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/server/node/server.main.js:93:2468)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)

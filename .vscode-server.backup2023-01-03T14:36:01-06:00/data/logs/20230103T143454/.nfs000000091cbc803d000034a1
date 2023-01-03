@@ -1,0 +1,182 @@
+2023-01-03 14:35:14.191 [error] Error: ENOENT: no such file or directory, scandir '/home/abaumgartner/.vscode-server/data/logs'
+2023-01-03 14:35:14.191 [info] Extension host agent started.
+2023-01-03 14:35:15.408 [info] [127.0.0.1][19cfe798][ManagementConnection] New connection established.
+2023-01-03 14:35:15.447 [info] [127.0.0.1][13e8bbfd][ExtensionHostConnection] New connection established.
+2023-01-03 14:35:19.986 [warning] No ptyHost heartbeat after 6 seconds
+2023-01-03 14:35:23.926 [error] ptyHost was unable to resolve shell environment {}
+2023-01-03 14:35:23.926 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+2023-01-03 14:35:23.928 [error] RequestService#request (node) resolving shell environment failed {}
+2023-01-03 14:35:23.931 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+2023-01-03 14:35:23.932 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+2023-01-03 14:35:23.933 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+2023-01-03 14:35:23.934 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+2023-01-03 14:35:24.034 [info] [127.0.0.1][13e8bbfd][ExtensionHostConnection] <847615> Launched Extension Host Process.
+2023-01-03 14:35:28.055 [error] CodeExpectedError: Could not find pty on pty host
+    at d._throwIfNoPty (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateTitle (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:2931)
+    at Object.call (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-01-03 14:35:28.085 [error] CodeExpectedError: Could not find pty on pty host
+    at d._throwIfNoPty (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateIcon (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:2993)
+    at Object.call (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-01-03 14:36:01.048 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2023-01-03 14:36:01.050 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2023-01-03 14:36:01.051 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2023-01-03 14:37:34.816 [info] [127.0.0.1][19cfe798][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-01-03 14:37:34.918 [info] [127.0.0.1][13e8bbfd][ExtensionHostConnection] <847615> Extension Host Process exited with code: 0, signal: null.
+2023-01-03 14:37:34.919 [info] Last EH closed, waiting before shutting down
+2023-01-03 14:38:38.896 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-01-03 14:38:38.931 [info] Cancelling previous shutdown timeout
+2023-01-03 14:38:39.271 [info] [127.0.0.1][1d7e8ac4][ManagementConnection] New connection established.
+2023-01-03 14:38:39.290 [info] [127.0.0.1][2001ea37][ExtensionHostConnection] New connection established.
+2023-01-03 14:38:39.292 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+2023-01-03 14:38:39.611 [info] [127.0.0.1][2001ea37][ExtensionHostConnection] <848304> Launched Extension Host Process.
+2023-01-03 14:38:43.356 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+2023-01-03 14:38:43.379 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+2023-01-03 14:38:43.389 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+2023-01-03 14:38:43.400 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+2023-01-03 14:38:45.847 [error] CodeExpectedError: Could not find pty on pty host
+    at d._throwIfNoPty (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateIcon (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:27:2993)
+    at Object.call (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/abaumgartner/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-01-03 14:39:15.282 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+2023-01-03 14:39:40.016 [info] Getting Manifest... ms-python.python
+2023-01-03 14:39:40.148 [info] Installing extension: ms-python.python
+2023-01-03 14:39:41.219 [info] Getting Manifest... ms-toolsai.jupyter
+2023-01-03 14:39:41.482 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-01-03 14:39:41.549 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-01-03 14:39:41.622 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-01-03 14:39:41.687 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-01-03 14:39:41.770 [info] Getting Manifest... ms-python.vscode-pylance
+2023-01-03 14:39:41.842 [info] Getting Manifest... ms-python.isort
+2023-01-03 14:39:42.095 [info] Installing extension: ms-toolsai.jupyter ms-python.python
+2023-01-03 14:39:42.095 [info] Installing extension: ms-toolsai.jupyter-keymap ms-python.python
+2023-01-03 14:39:42.096 [info] Installing extension: ms-toolsai.jupyter-renderers ms-python.python
+2023-01-03 14:39:42.096 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-python.python
+2023-01-03 14:39:42.096 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-python.python
+2023-01-03 14:39:42.097 [info] Installing extension: ms-python.vscode-pylance ms-python.python
+2023-01-03 14:39:42.097 [info] Installing extension: ms-python.isort ms-python.python
+2023-01-03 14:39:45.315 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.4d7c5d61-bf02-4f7f-87c5-fad6dbf1074c: ms-toolsai.jupyter-keymap
+2023-01-03 14:39:45.499 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.0.0
+2023-01-03 14:39:45.589 [info] Extracting completed. ms-toolsai.jupyter-keymap
+2023-01-03 14:39:45.857 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.079b0a57-f413-4ada-bc09-c57b9d720082: ms-toolsai.vscode-jupyter-slideshow
+2023-01-03 14:39:45.921 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2023-01-03 14:39:45.951 [info] Extracting completed. ms-toolsai.vscode-jupyter-slideshow
+2023-01-03 14:39:46.038 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.d3add936-64d7-4ec2-b11a-935e67e5d761: ms-toolsai.vscode-jupyter-cell-tags
+2023-01-03 14:39:46.089 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.6
+2023-01-03 14:39:46.094 [info] Extracting completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-01-03 14:39:48.860 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.3694787b-f403-4178-8204-6e7f470f45cb: ms-toolsai.jupyter-renderers
+2023-01-03 14:39:48.956 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.12
+2023-01-03 14:39:48.978 [info] Extracting completed. ms-toolsai.jupyter-renderers
+2023-01-03 14:39:56.035 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.50c63552-a13e-4eef-b565-4164ac5a4634: ms-toolsai.jupyter
+2023-01-03 14:39:56.153 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/ms-toolsai.jupyter-2022.9.1303220346
+2023-01-03 14:39:56.199 [info] Extracting completed. ms-toolsai.jupyter
+2023-01-03 14:40:06.959 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.a1dd3e75-bd47-43c4-9e9d-d0a0f2665529: ms-python.python
+2023-01-03 14:40:07.060 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/ms-python.python-2022.18.2
+2023-01-03 14:40:07.079 [info] Extracting completed. ms-python.python
+2023-01-03 14:40:11.735 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.cf8a55c1-4c9b-4754-87b8-5e8190d4319c: ms-python.isort
+2023-01-03 14:40:12.382 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/ms-python.isort-2022.8.0
+2023-01-03 14:40:12.404 [info] Extracting completed. ms-python.isort
+2023-01-03 14:40:33.091 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.d0813f98-26e9-4d53-838f-1d15bf5ef28d: ms-python.vscode-pylance
+2023-01-03 14:40:33.165 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/ms-python.vscode-pylance-2022.12.20
+2023-01-03 14:40:33.174 [info] Extracting completed. ms-python.vscode-pylance
+2023-01-03 14:40:33.179 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-01-03 14:40:33.179 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-01-03 14:40:33.179 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-01-03 14:40:33.179 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-01-03 14:40:33.179 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-01-03 14:40:33.179 [info] Extension installed successfully: ms-python.python
+2023-01-03 14:40:33.179 [info] Extension installed successfully: ms-python.isort
+2023-01-03 14:40:33.179 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-01-03 14:41:00.967 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+2023-01-03 14:43:38.934 [info] New EH opened, aborting shutdown
+2023-01-03 14:44:21.434 [info] Getting Manifest... donjayamanne.python-extension-pack
+2023-01-03 14:44:21.475 [info] Installing extension: donjayamanne.python-extension-pack
+2023-01-03 14:44:22.358 [info] Getting Manifest... ms-python.python
+2023-01-03 14:44:22.411 [info] Getting Manifest... visualstudioexptteam.vscodeintellicode
+2023-01-03 14:44:22.490 [info] Getting Manifest... visualstudioexptteam.intellicode-api-usage-examples
+2023-01-03 14:44:22.520 [info] Getting Manifest... batisteo.vscode-django
+2023-01-03 14:44:22.557 [info] Getting Manifest... wholroyd.jinja
+2023-01-03 14:44:22.601 [info] Getting Manifest... njpwerner.autodocstring
+2023-01-03 14:44:22.637 [info] Getting Manifest... kevinrose.vsc-python-indent
+2023-01-03 14:44:22.673 [info] Getting Manifest... donjayamanne.python-environment-manager
+2023-01-03 14:44:22.964 [info] Installing extension: visualstudioexptteam.vscodeintellicode donjayamanne.python-extension-pack
+2023-01-03 14:44:22.965 [info] Installing extension: visualstudioexptteam.intellicode-api-usage-examples donjayamanne.python-extension-pack
+2023-01-03 14:44:22.965 [info] Installing extension: batisteo.vscode-django donjayamanne.python-extension-pack
+2023-01-03 14:44:22.966 [info] Installing extension: wholroyd.jinja donjayamanne.python-extension-pack
+2023-01-03 14:44:22.966 [info] Installing extension: njpwerner.autodocstring donjayamanne.python-extension-pack
+2023-01-03 14:44:22.966 [info] Installing extension: kevinrose.vsc-python-indent donjayamanne.python-extension-pack
+2023-01-03 14:44:22.967 [info] Installing extension: donjayamanne.python-environment-manager donjayamanne.python-extension-pack
+2023-01-03 14:44:26.013 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.97de27f4-f3e4-4116-be70-dda4c631b01e: wholroyd.jinja
+2023-01-03 14:44:26.199 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/wholroyd.jinja-0.0.8
+2023-01-03 14:44:26.239 [info] Extracting completed. wholroyd.jinja
+2023-01-03 14:44:27.293 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.bff6ff7a-105d-4c08-b0a1-357cb73df6d9: kevinrose.vsc-python-indent
+2023-01-03 14:44:27.397 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/kevinrose.vsc-python-indent-1.18.0
+2023-01-03 14:44:27.452 [info] Extracting completed. kevinrose.vsc-python-indent
+2023-01-03 14:44:28.355 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.f7b721f0-cadd-4cca-a189-c0cb8005b96a: njpwerner.autodocstring
+2023-01-03 14:44:28.535 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/njpwerner.autodocstring-0.6.1
+2023-01-03 14:44:28.555 [info] Extracting completed. njpwerner.autodocstring
+2023-01-03 14:44:28.629 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.93be749a-9c5f-46f4-9819-40430ecb8e3c: batisteo.vscode-django
+2023-01-03 14:44:28.749 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/batisteo.vscode-django-1.10.0
+2023-01-03 14:44:28.815 [info] Extracting completed. batisteo.vscode-django
+2023-01-03 14:44:30.538 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.f5d0ec76-60fc-4835-a1d5-22f2adc1486c: visualstudioexptteam.intellicode-api-usage-examples
+2023-01-03 14:44:30.618 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.6
+2023-01-03 14:44:30.628 [info] Extracting completed. visualstudioexptteam.intellicode-api-usage-examples
+2023-01-03 14:44:51.462 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.545bc430-acca-482f-961c-399b17c196f2: donjayamanne.python-environment-manager
+2023-01-03 14:44:51.637 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/donjayamanne.python-environment-manager-1.0.4
+2023-01-03 14:44:51.662 [info] Extracting completed. donjayamanne.python-environment-manager
+2023-01-03 14:44:53.175 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.6dac0137-709d-4aa0-9eb2-1ed9573fb685: visualstudioexptteam.vscodeintellicode
+2023-01-03 14:44:53.286 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/visualstudioexptteam.vscodeintellicode-1.2.29
+2023-01-03 14:44:53.292 [info] Extracting completed. visualstudioexptteam.vscodeintellicode
+2023-01-03 14:45:09.482 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.8eaa69c9-43a7-4a3e-b6d4-6cf3c856c64e: donjayamanne.python-extension-pack
+2023-01-03 14:45:09.516 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/donjayamanne.python-extension-pack-1.7.0
+2023-01-03 14:45:09.534 [info] Extracting completed. donjayamanne.python-extension-pack
+2023-01-03 14:45:09.537 [info] Extension installed successfully: wholroyd.jinja
+2023-01-03 14:45:09.537 [info] Extension installed successfully: kevinrose.vsc-python-indent
+2023-01-03 14:45:09.537 [info] Extension installed successfully: njpwerner.autodocstring
+2023-01-03 14:45:09.537 [info] Extension installed successfully: batisteo.vscode-django
+2023-01-03 14:45:09.538 [info] Extension installed successfully: visualstudioexptteam.intellicode-api-usage-examples
+2023-01-03 14:45:09.538 [info] Extension installed successfully: donjayamanne.python-environment-manager
+2023-01-03 14:45:09.538 [info] Extension installed successfully: visualstudioexptteam.vscodeintellicode
+2023-01-03 14:45:09.538 [info] Extension installed successfully: donjayamanne.python-extension-pack
+2023-01-03 14:57:32.113 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+2023-01-03 14:58:05.482 [warning] [File Watcher (parcel)] started ignoring events due to too many file change events at once (incoming: 4119, most recent change: /usr/local/lib/python3.8/dist-packages/Flask-0.12.5.dist-info). Use 'files.watcherExclude' setting to exclude folders with lots of changing files (e.g. compilation output).
+2023-01-03 14:58:05.681 [warning] [File Watcher (parcel)] started ignoring events due to too many file change events at once (incoming: 4470, most recent change: /usr/local/lib/python3.8/dist-packages/Crypto). Use 'files.watcherExclude' setting to exclude folders with lots of changing files (e.g. compilation output).
+2023-01-03 14:58:14.384 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+2023-01-03 15:29:53.710 [info] Getting Manifest... denoland.vscode-deno
+2023-01-03 15:29:53.781 [info] Installing extension: denoland.vscode-deno
+2023-01-03 15:29:55.816 [info] Extracted extension to /home/abaumgartner/.vscode-server/extensions/.d0e1f46c-4eea-4f54-ba01-6a89b9daddd6: denoland.vscode-deno
+2023-01-03 15:29:55.937 [info] Renamed to /home/abaumgartner/.vscode-server/extensions/denoland.vscode-deno-3.15.0
+2023-01-03 15:29:55.947 [info] Extracting completed. denoland.vscode-deno
+2023-01-03 15:29:55.966 [info] Extension installed successfully: denoland.vscode-deno
+2023-01-03 15:54:47.662 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
